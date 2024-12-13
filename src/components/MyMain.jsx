@@ -3,20 +3,26 @@ import React from 'react';
 const MyMain = () => {
   return (
     <div className="space-y-8">
+      <h1 className="text-xl font-bold mb-4">Novità</h1>
       <section>
-        <h2 className="text-xl font-bold mb-4">Novità</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <div className="bg-gray-800 rounded p-4">Chill Station</div>
-          <div className="bg-gray-800 rounded p-4">Música Uno</div>
+        <div className="grid grid-cols-2 md:grid-cols-2 gap-4 justify-stretch">
+          <div className="bg-gray-800 rounded p-4">
+            <img src='src/assets/images/1a.png'/>
+          </div>
+          <div className="bg-gray-800 rounded p-4">
+            <img src='src/assets/images/1b.png'/></div>
         </div>
       </section>
-
       <section>
-        <h2 className="text-xl font-bold mb-4">Nuovi episodi radio</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        
+          <h2 className="text-xl font-bold mb-4">Nuovi episodi radio</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 justify-stretch">
+          <div className="bg-gray-800 rounded p-4">Prologo con Abuelo</div>
+          <div className="bg-gray-800 rounded p-4">The Wanderer</div>
           <div className="bg-gray-800 rounded p-4">Prologo con Abuelo</div>
           <div className="bg-gray-800 rounded p-4">The Wanderer</div>
         </div>
+        
       </section>
 
       <section>
