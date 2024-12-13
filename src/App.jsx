@@ -9,7 +9,7 @@ import MyMain from './components/myMain';
 const App = () => {
   return (
     <div className="flex h-screen bg-gray-900 text-white">
-      <Sidebar/>
+      <Sidebar className='visibility:hidden, visible md:visible'/>
       <div className="flex-1 flex flex-col">
         <Header/>
         <main className="flex-1 overflow-y-auto p-4">

@@ -69,7 +69,7 @@ const MyMain = () => {
                   <img
                     src={song.album.cover}
                     alt={song.title}
-                    className="w-full h-24 object-cover mb-2 rounded"
+                    className="w-full h-25 object-cover mb-2 rounded"
                   />
                   <p>{song.title}</p>
                   <p className="text-sm text-gray-400">{song.artist.name}</p>
