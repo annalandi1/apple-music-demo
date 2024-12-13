@@ -9,6 +9,6 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [tailwindcss], 
+  plugins: [], 
 };
 
