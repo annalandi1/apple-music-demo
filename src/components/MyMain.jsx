@@ -16,11 +16,12 @@ const MyMain = () => {
       <section>
         
           <h2 className="text-xl font-bold mb-4">Nuovi episodi radio</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 justify-stretch">
-          <div className="bg-gray-800 rounded p-4">Prologo con Abuelo</div>
-          <div className="bg-gray-800 rounded p-4">The Wanderer</div>
-          <div className="bg-gray-800 rounded p-4">Prologo con Abuelo</div>
-          <div className="bg-gray-800 rounded p-4">The Wanderer</div>
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-4 justify-stretch">
+          <div className="bg-gray-800 rounded p-4"><img src='src/assets/images/2a.png'/>Prologo con Abuelo</div>
+          <div className="bg-gray-800 rounded p-4"><img src='src/assets/images/2b.png'/>The Wanderer</div>
+          <div className="bg-gray-800 rounded p-4"><img src='src/assets/images/2c.png'/>Michael Bublé & Carly Pearce</div>
+          <div className="bg-gray-800 rounded p-4"><img src='src/assets/images/2d.png'/>Stefan Moccio: The Zane Lowe Interwiew</div>
+          <div className="bg-gray-800 rounded p-4"><img src='src/assets/images/2e.png'/>Chart Spotlight: Julia Michaels</div>
         </div>
         
       </section>
